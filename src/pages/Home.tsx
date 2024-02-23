@@ -108,7 +108,7 @@ const Home = () => {
         {
           data && data.map((item: MoneyType) => {
             return (
-              <div key={item._id} className='flex flex-col w-[400px] border border-black p-4 rounded-md'>
+              <div key={item._id} className='flex flex-col md:w-[400px] sm:w-[300px] border border-black p-4 rounded-md'>
                 <p>Amount: {String(item.amount)}</p>
                 <p>Description: {item.description}</p>
                 <p>Mode: {item.mode}</p>
